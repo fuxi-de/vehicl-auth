@@ -2,7 +2,10 @@
   "name": "vehicl-auth",
   "version": "1.0.0",
   "description": "An Auth Service using Passport JS",
-  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fuxi-de/vehicl-auth.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
