@@ -1,11 +1,8 @@
 {
-  "name": "vehicl-auth",
+  "name": "jwt-auth",
   "version": "1.0.0",
-  "description": "An Auth Service using Passport JS",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/fuxi-de/vehicl-auth.git"
-  },
+  "description": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
@@ -14,14 +11,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "base64url": "^3.0.1",
-    "connect-mongo": "^3.1.2",
+    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "express-session": "^1.17.0",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.7.12",
+    "mongoose": "^5.7.14",
     "passport": "^0.4.0",
-    "passport-local": "^1.0.0"
+    "passport-jwt": "^4.0.0"
   }
 }
