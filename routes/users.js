@@ -41,13 +41,13 @@ router.post('/login', function(req, res, next){
 
 // Register a new user
 router.post('/register', function(req, res, next){
-  const saltHash = utils.genPassword(req.body.password)
+  const saltHash = utils.genPassword(req.body.pw)
     
   const salt = saltHash.salt
   const hash = saltHash.hash
 
   const newUser = new User({
-    username: req.body.username,
+    username: req.body.uname,
     hash: hash,
     salt: salt
   })
